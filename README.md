@@ -2,7 +2,7 @@
 <p align="center"> A web app showcasing CSS 3D examples and how they work.</p>
 <div align="center"><a href="https://css-3d.netlify.app/">Try me on Netlify!</a></div>
 <br>
-<img src="https://github.com/michaelkolesidis/css-3d/blob/main/css-3d.png">
+<img align="center" src="https://github.com/michaelkolesidis/css-3d/blob/main/css-3d.png">
 
 
 
