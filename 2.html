@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>CSS 3D</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <p class="title">CSS 3D</p>
+    <p class="subtitle">Perspective with multiple items</p>
+    <div class="container">
+        <div class="scene-3">
+            <div class="panel-3"></div>
+            <div class="panel-3"></div>
+            <div class="panel-3"></div>
+            <div class="panel-3"></div>
+            <div class="panel-3"></div>
+            <div class="panel-3"></div>
+            <div class="panel-3"></div>
+            <div class="panel-3"></div>
+            <div class="panel-3"></div>
+            <pre class="code">
+                /* perspective as a function */
+        
+                .scene {
+                    
+                }
+                  
+                .panel {
+                  transition: transform 2s;
+                }
+                  
+                .scene:hover .panel {
+                  transform: perspective(600px) rotateY(45deg);
+                }
+            </pre>
+        </div>
+
+        <div class="scene-4">
+            <div class="panel-4"></div>
+            <div class="panel-4"></div>
+            <div class="panel-4"></div>
+            <div class="panel-4"></div>
+            <div class="panel-4"></div>
+            <div class="panel-4"></div>
+            <div class="panel-4"></div>
+            <div class="panel-4"></div>
+            <div class="panel-4"></div>
+            <pre class="code">
+                /* perspective defined in parent */
+                
+                .scene {
+                  perspective: 400px;
+                }
+                  
+                .panel {
+                  transition: transform 2s;
+                }
+                  
+                .scene:hover .panel {
+                  transform: rotateY(45deg);
+                }
+            </pre>
+        </div>
+
+    </div>
+
+    <a href="./index.html" class="button previous">Previous</a> <a href="./2.html" class="button next">Next</a>
+
+    <footer>
+        <p>Made with ♥ by Michael Kolesidis | <a target="_blank"
+                href="https://github.com/michaelkolesidis/css-3d">Source</a></p>
+    </footer>
+</body>
+
+</html>
