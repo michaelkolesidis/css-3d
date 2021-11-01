@@ -10,6 +10,7 @@ body {
 
 /****** Titles ******/
 .title {
+  color: rgb(47, 47, 47);
   font-weight: 700;
   margin-left: 30px;
   font-size: 44px;
@@ -20,6 +21,15 @@ body {
   color: rgb(71, 71, 71);
   margin-left: 30px;
   margin-top: 0;
+  font-size: 22px;
+}
+
+/****** Text ******/
+.text {
+  color: rgb(71, 71, 71);
+  margin-left: 30px;
+  margin-top: 100px;
+  margin-bottom: 306px;
   font-size: 22px;
 }
 
