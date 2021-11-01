@@ -10,41 +10,41 @@
   <p class="title">CSS 3D</p>
   <p class="subtitle">Perspective</p>
   <div class="container">
-    <div class="scene-1">
-      <div class="panel-1"></div>
+    <div class="scene scene-1">
+      <div class="panel big panel-1"></div>
       <pre>
-        /* perspective as a function */
+/* perspective as a function */
 
-        .scene {
-        
-        }
-        
-        .panel {
-          transition: transform 2s;
-        }
-      
-        .panel:hover {
-          transform: perspective(600px) rotateY(45deg);
-        }
+.scene {
+       
+}
+       
+.panel {
+    transition: transform 2s;
+}
+    
+.panel:hover {
+    transform: perspective(600px) rotateY(45deg);
+}
     </pre>
     </div>
 
-    <div class="scene-2">
-      <div class="panel-2"></div>
+    <div class="scene scene-2">
+      <div class="panel big panel-2"></div>
       <pre>
-        /* perspective defined in parent */
+/* perspective defined in parent */
 
-        .scene {
-          perspective: 600px;
-        }
-        
-        .panel {
-          transition: transform 2s;
-        }
-        
-        .panel:hover {
-          transform: rotateY(45deg);
-        }
+.scene {
+    perspective: 600px;
+}
+       
+.panel {
+    transition: transform 2s;
+}
+       
+.panel:hover {
+    transform: rotateY(45deg);
+}
       </pre>
     </div>
 
