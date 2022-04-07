@@ -8,16 +8,14 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/838fb106-2140-4c53-a5b6-c4f2d195887e/deploy-status)](https://app.netlify.com/sites/css-3d/deploys)
 
-<br>
-
+[//]: # (Free Software)
 <div align="center">
-  <h3>Made using GNU/Linux</h3>
-  <img src="https://gnulinuxgreece.github.io/gnu_linux.svg" style="width: 280px;">
+  <br>
+  <br>
+  <h4>Made using GNU/Linux</h4>
+  <a href="https://www.gnu.org/philosophy/free-sw.html"><img src="https://gnulinuxgreece.github.io/gnu_linux.svg" style="width: 180px;"></a>
 </div>
-
-<br>
-<br>
-                                                                   
+<br>                                                                
 <div align="center">
-  <a href="https://endsoftwarepatents.org/innovating-without-patents"><img style="height: 120px;" src="https://static.fsf.org/nosvn/esp/logos/innovating-without-patents.svg"></a>
+  <a href="https://endsoftwarepatents.org/innovating-without-patents"><img style="height: 90px;" src="https://static.fsf.org/nosvn/esp/logos/innovating-without-patents.svg"></a>
 </div>
