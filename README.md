@@ -1,6 +1,10 @@
 <h1 align="center">CSS 3D</h1>
 <p align="center"> A web app showcasing CSS 3D examples and how they work.</p>
-<div align="center"><a href="https://css-3d.netlify.app/"><h3>Try me!</h3></a></div>
+
+
+<a href="https://css-3d.netlify.app/"><h3 align="center">Try me!</h3></a>
+
+
 <br>
 <img align="center" src="https://github.com/michaelkolesidis/css-3d/blob/main/css-3d.png">
 
