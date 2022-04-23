@@ -6,7 +6,7 @@
 
 
 <br>
-<img align="center" src="./screenshot-01.png">
+<img align="center" src="./screenshot-02.png">
 
 
 
